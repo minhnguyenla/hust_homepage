@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đại học Bách Khoa Hà Nội</title>
+    <link rel="icon" href="./img/logo-dhbk.png">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./fonts_icon/themify-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./fonts_icon/boxicons-2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="./fonts_icon/boxicons-2.1.4/css/boxicons.css">
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <img class="img-head-banner" src="./img/cover-tin-tuc_1.jpg" alt="">
+        </div>
+        <div class="header"><div id="search-area">
+            <p class="bold-text white-text mg-bot8">Nhập từ khóa tìm kiếm</p>
+            <span>
+                <input class="search-input" type="text" placeholder="Tìm...">
+                <i class="ti-search search-icon"></i>
+            </span>
+        </div>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="">
+                        <img class="logo-img" src="./img/logo-dhbk.png" alt="">
+                    </a>
+                </div>
+                <ul class="text-sologan">
+                    <li><a class="white-text upper-text bold-text name-vi" href="">Đại học bách khoa hà nội</a></li>
+                    <li><a class="name-en white-text upper-text" href="">Hanoi university of science and
+                                technology</a></li>
+                </ul>
+                <div class="menu-right-nav">
+                    <ul>
+                        <li><a href="">Tuyển dụng</a></li>
+                        <li><a href="">Dự án SAHEP</a></li>
+                        <li><a href="">Email</a></li>
+                        <li><a href="">Lịch công tác</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="search-header"><i class="ti-search"></i></div>
+                <div class="language">
+                    <img class="vi-img" src="./img/vi.png" alt="">
+                    <br>
+                    <img class="en-img" src="./img/en.png" alt="">
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <script>
+                var a = document.getElementById('search-area');
+                document.getElementsByClassName('search-header')[0]
+                        .addEventListener('click', function () {
+                            if (a.style.display === 'none') {
+                                a.style.display = 'block';
+                            } else {
+                                a.style.display = 'none';
+                            }
+                    }
+                )
+            </script>
+
+            <div class="second-nav">
+                <ul>
+                    <li>
+                        <a href="">GIỚI THIỆU</a>
+                        <ul class="second-sub-nav">
+                            <li><a href="">Thông điệp của Giám đốc Đại học</a></li>
+                            <li>
+                                <a href="">Tổng quan</a>
+                                <ul class="">
+                                    <li><a href="">Lịch sử</a></li>
+                                    <li><a href="">Sứ mạng, Tầm nhìn và Giá trị cốt lõi</a></li>
+                                    <li><a href="">Chiến lược phát triển</a></li>
+                                    <li><a href="">Danh hiệu - Khen thưởng</a></li>
+                                    <li><a href="">Báo cáo thường niên</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Cơ cấu tổ chức</a></li>
+                            <li><a href="">Ba công khai</a></li>
+                            <li><a href="">Media</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">TIN TỨC</a>
+                        <ul class="second-sub-nav">
+                            <li><a href="">Hoạt động chung</a></li>
+                            <li><a href="">Công tác Đảng và Đoàn thể</a></li>
+                            <li><a href="">Tuyển sinh - Đào tạo - Công tác sinh viên</a></li>
+                            <li><a href="">Khoa học - Công nghệ - ĐMST</a></li>
+                            <li><a href="">Hợp tác - Đối ngoại - Truyền thông</a></li>
+                            <li><a href="">Kiểm định - xếp hạng</a></li>
+                            <li><a href="">Tổ chức - Nhân sự</a></li>
+                            <li><a href="">Bách khoa trên Báo chí</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">SỰ KIỆN NỔI BẬT</a></li>
+                    <li><a href="">TUYỂN SINH</a></li>
+                    <li><a href="">ĐÀO TẠO</a></li>
+                    <li><a href="">SINH VIÊN</a></li>
+                    <li><a href="">NGHIÊN CỨU</a></li>
+                    <li><a href="">HỢP TÁC ĐỐI NGOẠI</a></li>
+                    <li><a href="">eHUST</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="news-section">
+            <div class="title center">
+                <h2 class="upper-text">Tin tức</h2>
+            </div>
+            <div class="news-container">
+                <div class="item1">
+                    <div class="img-zoom-container">
+                        <img class="zoom-img" src="./img/template-tuyen-sinh-2023.jpg"
+                            alt="Dự kiến phương thức tuyển sinh đại học chính quy năm 2023">
+                    </div>
+                    <h3>
+                        <a href="">Dự kiến phương thức tuyển sinh đại học chính quy năm 2023</a>
+                    </h3>
+                </div>
+                <div class="item2">
+                    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="top-slide">
+                                    <img src="./img/dsc00755.jpg" class="w-100 d-block" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        dshagy
+                                    </div>
+                                </div>
+                                <div class="bottom-slide">
+                                    <img src="./img/cbo_7851.jpg" class="w-100 d-block" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="top-slide">
+                                    <img src="./img/cbo_7347.jpg" class="w-100 d-block" alt="Second slide">
+                                </div>
+                                <div class="bottom-slide">
+                                    <img src="./img/cbo_6862.jpg" class="w-100 d-block" alt="First slide">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="top-slide">
+                                    <img src="./img/20230324-cbo_6375.jpg" class="w-100 d-block" alt="Third slide">
+                                </div>
+                                <div class="bottom-slide">
+                                    <img src="./img/dsc_4931.jpg" class="w-100 d-block" alt="First slide">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="content-item3">
+                        <h3>
+                            <a href="">Gặp mặt sinh viên quốc tế Bách khoa Hà Nội kỳ mùa hè</a>
+                        </h3>
+                    </div>
+                    <div class="content-item3">
+                        <h3>
+                            <a href="">Bách khoa Hà Nội triển khai dự án nghiên cứu nhiên liệu sinh học</a>
+                        </h3>
+                    </div>
+                    <div class="content-item3">
+                        <h3>
+                            <a href="">Bách khoa trao cơ hội, học sinh bày tỏ thi cả 3 đợt thi Đánh giá tư...</a>
+                        </h3>
+                    </div>
+                    <div class="content-item3">
+                        <h3>
+                            <a href="">Bộ trưởng Bộ GD&ĐT Nguyễn Kim Sơn: “Bách khoa là một mối. Thống nhất...</a>
+                        </h3>
+                    </div>
+                    <div class="content-item3">
+                        <h3>
+                            <a href="">Bộ trưởng Bộ GD&ĐT Nguyễn Kim Sơn: “Khi khuôn, vỏ, áo cũ đã trở nên...</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="news-see-btn center">
+                <button class="see-all-btn">Xem tất cả</button>
+            </div>
+        </div>
+
+        <div id="event-section">
+            <div class="title center">
+                <h2 class="upper-text white-text">Sự kiện nổi bật</h2>
+            </div>
+            <div class="event-container">
+                <div class="item1 event-item">
+                    <div class="img-zoom-container">
+                        <img class="event-item-img zoom-img" src="./img/post-web-01-2.jpg" alt="">
+                    </div>
+
+                    <div class="event-item-content">
+                        <h2>
+                            <a href="">THÔNG BÁO CHUNG</a>
+                        </h2>
+                        <h3>
+                            <a href="">NGÀY CHẠY OLYMPIC VÌ SỨC KHOẺ TOÀN DÂN 2023</a>
+                        </h3>
+                        <span class="date-publish">
+                            <span class="month">THÁNG 03</span>
+                            <span class="date">23</span>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="item2 event-item">
+                    <div class="img-zoom-container">
+                        <img class="event-item-img zoom-img" src="./img/hoi-thao-y-sinh.jpg" alt="">
+                    </div>
+                    <div class="event-item-content">
+                        <h2>
+                            <a href="">KHOA HỌC - CÔNG NGHỆ - ĐMST</a>
+                        </h2>
+                        <h3>
+                            <a href="">Hội thảo quốc tế “International Conference on Health Science and Technology -
+                                ICHST”</a>
+                        </h3>
+                        <span class="date-publish">
+                            <span class="month">THÁNG 03</span>
+                            <span class="date">20</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="event-item3-content">
+                        <span class="date-event-item3">
+                            <span class="month">THÁNG 03</span>
+                            <span class="date">16</span>
+                        </span>
+                        <div class="item3-inner">
+                            <h3>
+                                <a href="">Lễ công bố quyết định chuyển Trường ĐHBK Hà Nội thành Đại học Bách khoa Hà
+                                    Nội và các quyết định về...</a>
+                            </h3>
+                        </div>
+                        <div class="clear"></div>
+
+                    </div>
+                    <div class="event-item3-content">
+                        <span class="date-event-item3">
+                            <span class="month">THÁNG 03</span>
+                            <span class="date">10</span>
+                        </span>
+                        <div class="item3-inner">
+                            <h3>
+                                <a href="">Thông báo học bổng NCS Erasmus + Key Action 1 với Liên minh các Trường ĐH Tây
+                                    Ban Nha A4U</a>
+                            </h3>
+                        </div>
+                        <div class="clear"></div>
+
+                    </div>
+                    <hr style="color: #4e4e4e;">
+                    <h2 class="center upper-text"
+                        style="color: #b41d24; font-size: 20px; padding-top: 20px; font-weight: 700px;">
+                        Sự kiện sắp diễn ra
+                    </h2>
+                    <div class="event-item3-content">
+
+                        <span class="date-event-item3">
+                            <span class="month">THÁNG 03</span>
+                            <span class="date">26</span>
+                        </span>
+                        <div class="item3-inner">
+                            <h3>
+                                <a style="color: #b41d24" href="">Kỷ niệm 92 năm thành lập Đoàn TNCS HCM</a>
+                            </h3>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="reserch-coop-section">
+            <div class="research">
+                <div class="center">
+                    <h2 class="title-grey upper-text">Nghiên cứu</h2>
+                </div>
+                <div class="research-content">
+                    <div class="background-hover"></div>
+                    <img class="research-coop-img" src="./img/nghien-cuu.jpg" alt="">
+                    <div class="img-content">
+                        <ul>
+                            <li>Thông tin ứng viên đăng ký xét công nhận đạt tiêu chuẩn GS/PGS</li>
+                            <li>Hoạt động nghiên cứu khoa học và sáng tạo</li>
+                            <li>Thông tin về các Viện, Trung tâm nghiên cứu, Phòng thí nghiệm</li>
+                            <li>Tạp chí khoa học công nghệ</li>
+                        </ul>
+                        <div>
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="co-op">
+                <div class="center">
+                    <h2 class="title-grey upper-text">Hợp tác đối ngoại</h2>
+                </div>
+                <div class="co-op-content">
+                    <div class="background-hover"></div>
+                    <img class="research-coop-img" src="./img/hop-tac-doi-ngoai.jpg" alt="">
+                    <div class="img-content">
+                        <ul>
+                            <li>Các tin tức hợp tác đối ngoại, thông tin học bổng, hội thảo – hội nghị tại Trường ĐH Bách khoa Hà Nội</li>
+                            <li>Các mạng lưới hợp tác, đối tác học thuật, doanh nghiệp của Trường ĐH Bách khoa Hà Nội</li>
+                            <li>Các dự án hợp tác lớn, chương trình trao đổi cán bộ, trao đổi sinh viên của Trường ĐH Bách khoa Hà Nội</li>
+                        </ul>
+                        <div>
+                            <a href="">Xem thêm</a>
+                        </div>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div id="enroll-section">
+            <div class="center">
+                <h2 class="title-grey upper-text">Tuyển sinh</h2>
+            </div>
+            <div class="enroll-container">
+                <div class="item1 img-zoom-container">
+                    <img class="enroll-img zoom-img" src="./img/tuyen-sinh-trang-chu.jpg" alt="">
+                </div>
+                <div class="item2">
+                    <h3>
+                        <span>Cung cấp thông tin tuyển sinh, ngành tuyển sinh, đề án tuyển sinh...
+                            cho các bậc học tại Đại học Bách khoa Hà Nội
+                        </span>
+                        <ul>
+                            <li><a href="">Đại học</a></li>
+                            <li><a href="">Cao học</a></li>
+                            <li><a href="">Vừa làm vừa học</a></li>
+                            <li><a href="">Nghiên cứu sinh</a></li>
+                            <li><a href="">Văn bằng 2</a></li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="student-life-section">
+            <div class="item1">
+                <div class="center">
+                    <h2 class="title-grey upper-text">Đào tạo</h2>
+                </div>
+                <div class="img-zoom-container">
+                    <img class="student-life-img zoom-img" src="./img/dao-tao-home.jpg" alt="">
+                </div>
+
+                <div class="item-inner">
+                    <h3>Thông tin về mô hình, chương trình đào tạo của các hệ đào
+                        tạo Đại học và Sau đại học của Đại học Bách khoa Hà Nội
+                    </h3>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="center">
+                    <h2 class="title-grey upper-text">Sinh viên</h2>
+                </div>
+                <div class="img-zoom-container">
+                    <img class="student-life-img zoom-img" src="./img/sinh-vien-home.jpg" alt="">
+                </div>
+
+                <div class="item-inner">
+                    <h3>Thông tin dành cho tất cả sinh viên đang học tập các hệ tại Đại học Bách khoa Hà Nội</h3>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="center">
+                    <h2 class="title-grey upper-text">Cựu sinh viên</h2>
+                </div>
+                <div class="img-zoom-container">
+                    <img class="student-life-img zoom-img" src="./img/cuu-sinh-vien-home.jpg" alt="">
+                </div>
+
+                <div class="item-inner">
+                    <h3>Kết nối các thế hệ cựu sinh viên Bách Khoa Hà Nội. Mang đến cơ hội hợp tác,
+                        chia sẻ thông tin về gương mặt, cựu sinh viên tiêu biểu
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-section-top">
+            <div class="footer-top-container">
+                <div class="item1">
+                    <div class="panel-heading">
+                        Bản đồ chỉ dẫn
+                    </div>
+                    <div class="panel-body">
+                        <span class="name-uni">Đại học Bách Khoa Hà Nội</span>
+                        <iframe style="margin-top: 4px" allowfullscreen="" frameborder="0" height="130" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" scrolling="no"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1809.3259883834749!2d105.84095104716604!3d21.005201460722592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad591575f7bb%3A0x28c483c5b1697381!2zxJDhuqFpIEjhu41jIELDoWNoIEtob2EgSMOgIE7hu5lpIEPhu5VuZyBQYXJhYm9s!5e0!3m2!1svi!2s!4v1666925153384!5m2!1svi!2s"
+                            style="border:0;" width="200">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="panel-heading">
+                        Bộ giáo dục và đào tạo
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="panel-heading">
+                        Đơn vị trực thuộc
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li><a href="">VIỆN - KHOA ĐÀO TẠO (A - Z)</a></li>
+                            <li><a href="">VIỆN - TRUNG TÂM NGHIÊN CỨU (A - Z)</a></li>
+                            <li><a href="">PHÒNG - BAN - TRUNG TÂM (A - Z)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item4">
+                    <div class="panel-heading">
+                        Sơ đồ website
+                    </div>
+                    <div class="panel-body">
+                        <a href="">XEM SƠ ĐỒ TRANG ...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-section-bottom">
+            <div class="footer-bottom-container">
+                <div class="footer-bottom-content-left">
+                    <img class="footer-bottom-img" src="./img/logo-hust-02.png" alt="">
+                </div>
+                <div class="footer-bottom-content-right">
+                    Bản quyền thuộc về Đại học Bách khoa Hà Nội
+                    <br>
+                    Địa chỉ: Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội
+                    <br>
+                    Điện thoại: 024 3869 4242
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="social">
+            <div class="social-list">
+                <ul>
+                    <li>
+                        <a href="" class="social-red">
+                            <i class="bx bx-news"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-blue">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-red2">
+                            <i class="bx bxl-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-blue2">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-red3">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-blue3">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script>
+        $(document).ready(function (){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('.header-content').addClass('bgHeader');
+                    $('.second-nav').addClass('second-navBg');  
+                    $('.second-nav a').addClass('second-navBg-text');
+                    $('.header').addClass('header-scroll-height');             
+                }else{       
+                    $('.header-content').removeClass('bgHeader');
+                    $('.second-nav').removeClass('second-navBg');
+                    $('.second-nav a').removeClass('second-navBg-text');
+                    $('.header').removeClass('header-scroll-height');
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
