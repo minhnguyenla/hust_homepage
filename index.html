@@ -21,12 +21,13 @@
         <div>
             <img class="img-head-banner" src="./img/cover-tin-tuc_1.jpg" alt="">
         </div>
-        <div class="header"><div id="search-area">
-            <p class="bold-text white-text mg-bot8">Nhập từ khóa tìm kiếm</p>
-            <span>
-                <input class="search-input" type="text" placeholder="Tìm...">
-                <i class="ti-search search-icon"></i>
-            </span>
+        <div class="header">
+            <div class="collapse search-area" id="contentId">
+                <p class="bold-text white-text mg-bot8">Nhập từ khóa tìm kiếm</p>
+                <span>
+                    <input class="search-input" type="text" placeholder="Tìm...">
+                    <i class="ti-search search-icon"></i>
+                </span>
         </div>
             <div class="header-content">
                 <div class="logo">
@@ -49,7 +50,12 @@
                         
                     </ul>
                 </div>
-                <div class="search-header"><i class="ti-search"></i></div>
+                <p>
+                    <button class="btn btn-primary search-header-btn" type="button" data-bs-toggle="collapse" data-bs-target="#contentId" aria-expanded="false"
+                            aria-controls="contentId">
+                        <div class="search-header"><i class="ti-search"></i></div>
+                    </button>
+                </p>
                 <div class="language">
                     <img class="vi-img" src="./img/vi.png" alt="">
                     <br>
@@ -58,7 +64,7 @@
                 <div class="clear"></div>
             </div>
 
-            <script>
+            <!-- <script>
                 var a = document.getElementById('search-area');
                 document.getElementsByClassName('search-header')[0]
                         .addEventListener('click', function () {
@@ -69,7 +75,7 @@
                             }
                     }
                 )
-            </script>
+            </script> -->
 
             <div class="second-nav">
                 <ul>
